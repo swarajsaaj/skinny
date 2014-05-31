@@ -17,7 +17,7 @@ Installation
 ###For Windows
 1. Download the winDownload folder
 2. Rename it to skinny and place it in <code>C:\</code>
-3. Add this (<code>C:\skinny\</code>) to your system Variables 
+3. Add this (<code>C:\skinny\ </code> ) to your system Variables 
 	1.To do this run <code>sysdm.cpl</code> (without quotes) from your Start Button Search Box
 	2.Go to Advanced Tab
 	3.Go to Environment Variables
@@ -29,7 +29,7 @@ Installation
 ###For Linux
 1. Download the linuxDownload folder
 2. Rename it to skinny and place it in  Root folder (/) 
-3. Add this (<code>/skinny/</code>) to System Path Variables or alias it
+3. Add this (<code>/skinny/ </code> ) to System Path Variables or alias it
 	1.To make an alias use "<code>alias skn='java -jar /skinny/skn.sh</code>'.
 	2.Or add "<code>alias skn='java -jar /skinny/skn.sh</code>" to your <code>~/.bashrc file</code>.
 	
@@ -50,7 +50,7 @@ Installation
 * skn restore <commitNumber>
 
 >To restore state of working directory to a previous state with reference to a commit number (from log)
->	e.g.<code>C:\work\>skn restore 14
+>	e.g.<code>C:\work\>skn restore 14 </code>
 
 * skn log
 >

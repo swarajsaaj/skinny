@@ -1,8 +1,8 @@
-skinny
+Skinny
 ======
 
 A local subversioning command line tool, written for those who find git troublesome and difficult to use for simple backups and snapshots of projects.
-
+>The name is derived form being a small tool than git (which is really muscular), but skinny provide you easy to learn four commands and only used for local source management, commit log init restore ..thats it four commands no big deal. But its power lies in its simplicity formanaging Directory and Project States by making Snaposhots using a command line.
 Installation
 --------
 

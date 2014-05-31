@@ -31,7 +31,7 @@
 
       <section>
         <div id="title">
-	<h1><img height=80px widht=80px src="./images/logo.png"></h1>
+	<h1><img height=40px widht=40px src="./images/logo.png"></h1>
           <h1>Skinny</h1> <center>by Swaraj</center>
           <p>A local subversioning command line tool, written for those who find git troublesome and difficult to use for simple backups and snapshots of projects.</p>
           <hr>

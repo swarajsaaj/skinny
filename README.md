@@ -24,13 +24,14 @@ Installation
 	4.In System Variables Edit the PATH
 	5.In the end append "<code>;C:\skinny</code>" (without quotes) and save
 4. You can now use skinny using skn command in command line (cmd.exe)
+(or if you are an advanced user , just add skn.bat to environment variables PATH where you have placed it)
 
 ###For Linux
 1. Download the linuxDownload folder
 2. Rename it to skinny and place it in  Root folder (/) 
 3. Add this (<code>/skinny/</code>) to System Path Variables or alias it
-	1.To make an alias use "<code>alias skn='java -jar /skinny/skn.jar</code>'.
-	2.Or add "<code>alias skn='java -jar /skinny/skn.jar</code>" to your <code>~/.bashrc file</code>.
+	1.To make an alias use "<code>alias skn='java -jar /skinny/skn.sh</code>'.
+	2.Or add "<code>alias skn='java -jar /skinny/skn.sh</code>" to your <code>~/.bashrc file</code>.
 	
 4. You can now use skinny using <code>skn</code> command in terminal
 

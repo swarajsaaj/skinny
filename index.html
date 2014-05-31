@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Skinny by swarajsaaj</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/swarajsaaj/skinny">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/swarajsaaj/skinny/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/swarajsaaj/skinny/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Skinny</h1>
+          <p>A local subversioning command line tool, written for those who find git troublesome and difficult to use for simple backups and snapshots of projects.</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/swarajsaaj">swarajsaaj</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a name="skinny" class="anchor" href="#skinny"><span class="octicon octicon-link"></span></a>Skinny</h1>
+
+<p>A local subversioning command line tool, written for those who find git troublesome and difficult to use for simple backups and snapshots of projects.</p>
+
+<blockquote>
+<p>The name is derived form being a small tool than git (which is really muscular), but skinny provide you easy to learn four commands and only used for local source management, commit log init restore ..thats it four commands no big deal. But its power lies in its simplicity formanaging Directory and Project States by making Snaposhots using a command line.</p>
+
+<p>TODO List of Upcoming features
+1.Add diff command to see difference
+2.See status of changed files
+3.Add Distributed pushing and pulling</p>
+
+<p>If you would like to get in Development or give reviews mail me at <a href="mailto:swarajsaaj@gmail.com">swarajsaaj@gmail.com</a></p>
+</blockquote>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<h3>
+<a name="for-windows" class="anchor" href="#for-windows"><span class="octicon octicon-link"></span></a>For Windows</h3>
+
+<ol>
+<li>Download the winDownload folder</li>
+<li>Rename it to skinny and place it in <code>C:&lt;/code&gt;</code>
+</li>
+<li>Add this (<code>C:\skinny\ </code> ) to your system Variables 
+1.To do this run <code>sysdm.cpl</code> (without quotes) from your Start Button Search Box
+2.Go to Advanced Tab
+3.Go to Environment Variables
+4.In System Variables Edit the PATH
+5.In the end append "<code>;C:\skinny</code>" (without quotes) and save</li>
+<li>You can now use skinny using skn command in command line (cmd.exe)</li>
+</ol><h3>
+<a name="for-linux" class="anchor" href="#for-linux"><span class="octicon octicon-link"></span></a>For Linux</h3>
+
+<ol>
+<li>Download the linuxDownload folder</li>
+<li>Rename it to skinny and place it in  Root folder (/) </li>
+<li><p>Add this (<code>/skinny/</code>) to System Path Variables or alias it
+1.To make an alias use "<code>alias skn='java -jar /skinny/skn.jar</code>'.
+2.Or add "<code>alias skn='java -jar /skinny/skn.jar</code>" to your <code>~/.bashrc file</code>.</p></li>
+<li><p>You can now use skinny using <code>skn</code> command in terminal</p></li>
+</ol><h3>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h3>
+
+<ul>
+<li>skn init</li>
+</ul><blockquote>
+<p>To initialize a repository in the current folder or directory you are working in 
+  e.g.  <code>C:\work&gt;skn init</code>
+      This will make work folder a skn repository</p>
+
+<ul>
+<li>skn commit </li>
+</ul>
+<p>To make the snapshot of current state (known as a commit)
+  e.g. <code>C:\work&gt;skn commit "First state"</code></p>
+
+<ul>
+<li>skn restore </li>
+</ul>
+<p>To restore state of working directory to a previous state with reference to a commit number (from log)
+  e.g.<code>C:\work&gt;skn restore 14</code></p>
+</blockquote>
+
+<ul>
+<li>skn log</li>
+</ul><blockquote>
+<p>To see the log history of previously committed snapshots with date and commit numbers for reference
+?   e.g.<code>C:\work&gt;skn log</code></p>
+</blockquote>
+
+<ul>
+<li>skn help</li>
+</ul><blockquote>
+<p>To see all this help there</p>
+</blockquote>
+
+<h3>
+<a name="authors-and-contact" class="anchor" href="#authors-and-contact"><span class="octicon octicon-link"></span></a>Authors and Contact</h3>
+
+<p>Skinny written by <a href="https://github.com/swarajsaaj/">Swaraj Pal</a> <a href="mailto:swarajsaaj@gmail.com">swarajsaaj@gmail.com</a> or <a href="www.facebook.com/swarajsaaj">Facebook</a> </p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
